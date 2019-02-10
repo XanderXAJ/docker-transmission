@@ -50,5 +50,7 @@ docker run --detach --restart unless-stopped --volume transmission:/var/lib/tran
 
 Please report issues by [raising a GitHub issue][github-issues].
 
+Please note that only the latest image will receive fixes.
+
 [github-issues]: https://github.com/XanderXAJ/docker-transmission/issues
 
