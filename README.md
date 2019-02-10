@@ -1,6 +1,8 @@
 # ![](/transmission-qt.svg) Transmission
 
-A simple Transmission Docker image. It assumes you already have your own config or want to start with the defaults.
+A simple [Transmission][transmission] Docker image. It assumes you already have your own config or want to start with the defaults.
+
+This project is not affiliated with the [Transmission project][transmission].
 
 [transmission]: https://transmissionbt.com
 
