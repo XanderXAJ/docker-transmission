@@ -15,7 +15,7 @@ USER transmission
 EXPOSE 9091 51413/tcp 51413/udp
 
 HEALTHCHECK --interval=60s --timeout=15s \
-  CMD curl -L 'https://api.ipify.org'
+  CMD wget -q --spider 'https://api.ipify.org'
 
 VOLUME ["/var/lib/transmission"]
 
