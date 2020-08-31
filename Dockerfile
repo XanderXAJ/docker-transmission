@@ -8,7 +8,8 @@ RUN apk --no-cache add tini transmission-daemon\
 		/var/lib/transmission/incomplete\
 		/var/lib/transmission/watch\
 	&& chown -R transmission:transmission /var/lib/transmission\
-	&& chmod -R o+rwX /var/lib/transmission   # Required to make the image work with arbitrary users
+	# Required to make the image work with arbitrary users
+	&& chmod -R o+rwX /var/lib/transmission
 
 USER transmission
 
